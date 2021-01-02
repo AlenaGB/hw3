@@ -6,5 +6,6 @@ def student():
 
     print('My name is', person['Name'],person['Surname'], 'I was born in', person['City'], person['Birthday'], 'My contacts:', person['Email'], person['Telephon number'])
 
-print('Questionnaire')
+print('Questionnaire'.upper())
+
 student()
