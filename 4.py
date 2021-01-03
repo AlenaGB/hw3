@@ -18,7 +18,8 @@ def my_func2(x,y):
 # при помощи цикла
 
 print('exponentiation'.upper())
-print('result 1. x^y= {:.2}'.format(my_func(float(input('x= ')),int(input('y= ')))))
 
-print('result 2. x^y= {:.2}'.format(my_func2(float(input('x= ')),int(input('y= ')))))
+print('result 1. x^y= {:.2}'.format(my_func(float(input('x= ')), int(input('y= ')))))
+
+print('result 2. x^y= {:.2}'.format(my_func2(float(input('x= ')), int(input('y= ')))))
 

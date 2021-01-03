@@ -1,4 +1,5 @@
 print('Sum of numbers'.upper())
+
 # реализация с циклом
 
 # summa = 0
@@ -11,6 +12,7 @@ print('Sum of numbers'.upper())
 #     print('result: ', summa)
 
 #  реализация с функцией
+
 def listsum(numList):
     for i in numList:
         global theSum

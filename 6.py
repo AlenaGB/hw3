@@ -1,9 +1,9 @@
 def int_func(word):
     return word[0].upper() + word[1:]
-
+# заглавная у первого слова
 def int_func2(word):
     return word.title()
-# method title for all words
+# заглавная у всех слов (метод title)
 
 print('capital letters'.upper())
 
