@@ -3,6 +3,7 @@ def convert (rub, rate):
     try:
         return rub / rate
     except ZeroDivisionError:
+        #деление на 0
         print('Incorrect input data')
         exit()
 
